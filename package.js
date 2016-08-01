@@ -2,7 +2,8 @@ Package.describe({
   name: 'smaltcreation:manager-api',
   version: '0.0.2',
   summary: 'Smalt Création Manager API Connector',
-  documentation: 'README.md'
+  documentation: 'README.md',
+  git: 'https://github.com/smaltcreation/manager-api'
 });
 
 Package.onUse(function(api) {

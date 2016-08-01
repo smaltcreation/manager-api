@@ -54,7 +54,6 @@ export class Client {
       headers: this.getAuthenticationHeader(),
       data: {
         chartId: parseInt(chartId),
-        x: new Date(),
         y: yValue
       }
     }, error => {
